@@ -15,7 +15,7 @@ public class Student {
     }
 
     public void setFirstName(String firstName) {
-        firstName.replaceAll("[^A-Za-z]", "");
+        //firstName.replaceAll("[^A-Za-z]", "");
         this.firstName = firstName;
     }
 
@@ -24,7 +24,7 @@ public class Student {
     }
 
     public void setLastName(String lastName) {
-        lastName.replaceAll("[^A-Za-z]", "");
+        //lastName.replaceAll("[^A-Za-z]", "");
         this.lastName = lastName;
     }
 
