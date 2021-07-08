@@ -22,7 +22,7 @@ public class TUMOnline {
 
     public Student findStudentByName(String firstName, String lastName) {
         for (Student student : this.enrolledStudents) {
-            if (student.getFirstName() == firstName && student.getLastName() == lastName) {
+            if (student.getFirstName().equals(firstName) && student.getLastName().equals(lastName)) {
                 return student;
             }
         }

@@ -23,7 +23,7 @@ public class Main {
         tumOnline.enrolStudent(student1);
         tumOnline.enrolStudent(student2);
         tumOnline.registerCourse(course);
-        Student foundStudent = tumOnline.findStudentByName(firstName1, firstName2);
+        Student foundStudent = tumOnline.findStudentByName(firstName1, lastName1);
 
         if (foundStudent == null) {
             throw new RuntimeException("%s %s was not found, despite being registered in the course!".formatted(firstName1, lastName1));

@@ -1,5 +1,6 @@
 package de.tum.in.ase.eist;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
@@ -9,6 +10,7 @@ public class Course {
 
     public Course(String name) {
         this.name = name;
+        participants = new ArrayList<>();
     }
 
     public String getName() {
